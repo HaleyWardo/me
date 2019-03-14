@@ -11,24 +11,76 @@ class Layout extends React.Component {
 
     if (location.pathname === rootPath) {
       header = (
-        <h1
-          style={{
-            ...scale(1.5),
-            marginBottom: rhythm(1.5),
-            marginTop: 0,
-          }}
-        >
-          <Link
+        <div>
+          <h1
             style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
+              ...scale(1.5),
+              marginBottom: rhythm(1.5),
+              marginTop: 0,
+              justifyContent: `center`,
+              display: `flex`
             }}
-            to={`/`}
           >
-            {title}
-          </Link>
-        </h1>
+            <Link
+              style={{
+                boxShadow: `none`,
+                textDecoration: `none`,
+                color: `inherit`,
+              }}
+              to={`/`}
+            >
+              {title}
+            </Link>
+          </h1>
+          <nav>
+            <ul 
+              style={{
+                display: `flex`,
+                listStyle: `none`,
+                justifyContent: `center`,
+                borderTop: `2px solid #333333`,
+                borderBottom: `2px solid #333333`
+              }}>
+              <li 
+                style={{
+                  marginBottom: `0`,
+                  padding: `5px 0`}}>
+                <a 
+                  href="#" 
+                  style={{
+                    boxShadow: `none`,
+                    textDecoration: `none`,
+                    color: `inherit`,
+                    paddingLeft: `30px`
+                  }}>Home</a>
+              </li>
+              <li 
+                style={{
+                  marginBottom: `0`,
+                  padding: `5px 0`}}>
+                <a href="#"
+                style={{
+                  boxShadow: `none`,
+                  textDecoration: `none`,
+                  color: `inherit`,
+                  paddingLeft: `30px`
+                }}>About Me</a>
+              </li>
+              <li 
+                style={{
+                  marginBottom: `0`,
+                  padding: `5px 0`}}>
+                <a href="#"
+                style={{
+                  boxShadow: `none`,
+                  textDecoration: `none`,
+                  color: `inherit`,
+                  paddingLeft: `30px`
+                }}>Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       )
     } else {
       header = (
@@ -58,14 +110,19 @@ class Layout extends React.Component {
           marginRight: `auto`,
           maxWidth: rhythm(24),
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+          color: '#333333'
         }}
       >
         <header>{header}</header>
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
+          © {new Date().getFullYear()}, Built with &hearts; &
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <a 
+            style={{
+              boxShadow: 'none',
+            }}
+            href="https://www.gatsbyjs.org">Gatsby</a>
         </footer>
       </div>
     )

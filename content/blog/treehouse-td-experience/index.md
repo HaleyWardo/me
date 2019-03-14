@@ -1,5 +1,5 @@
 ---
-title: Hello World
+title: My Treehouse Tech Degree Experience
 date: "2018-02-09T22:12:03.284Z"
 ---
 
@@ -23,7 +23,7 @@ and I listened to them. So when I decided I was definitely going to try and lear
 
 What I didn’t know about Treehouse was that they came out with a tech degree program. There isn’t a lot of feedback regarding the tech degree program other than their website, so I decided to do a little research. I found a couple Medium posts, but nothing that convinced me… until I found a YouTube video.
 
-**Update:** Unfortunately, SkyeDevelops YouTube channel is no longer active.
+**Update:** Unfortunately, Skyedevelops YouTube channel is no longer active.
 
 In the video, she went through her experience the first day, first week, and first month. After seeing her reaction and how it made her feel, I decided I was going to do it!
 
