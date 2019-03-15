@@ -3,6 +3,8 @@ import { Link } from "gatsby"
 
 import { rhythm, scale } from "../utils/typography"
 
+import Contact from './contact';
+
 class Layout extends React.Component {
   render() {
     const { location, title, children } = this.props
@@ -15,7 +17,7 @@ class Layout extends React.Component {
           <h1
             style={{
               ...scale(1.5),
-              marginBottom: rhythm(1.5),
+              marginBottom: rhythm(1),
               marginTop: 0,
               justifyContent: `center`,
               display: `flex`
@@ -26,6 +28,7 @@ class Layout extends React.Component {
                 boxShadow: `none`,
                 textDecoration: `none`,
                 color: `inherit`,
+                fontWeight: `500`
               }}
               to={`/`}
             >
@@ -41,42 +44,61 @@ class Layout extends React.Component {
                 borderTop: `2px solid #333333`,
                 borderBottom: `2px solid #333333`
               }}>
+
               <li 
                 style={{
                   marginBottom: `0`,
-                  padding: `5px 0`}}>
-                <a 
-                  href="#" 
+                  padding: `5px 0 5px 30px`
+                }}
+              >
+                <Link
+                  className="header_link"
                   style={{
                     boxShadow: `none`,
                     textDecoration: `none`,
                     color: `inherit`,
-                    paddingLeft: `30px`
-                  }}>Home</a>
+                  }}
+                  to={`/`}
+                >
+                  Home
+                </Link>
               </li>
+
               <li 
                 style={{
                   marginBottom: `0`,
-                  padding: `5px 0`}}>
-                <a href="#"
-                style={{
-                  boxShadow: `none`,
-                  textDecoration: `none`,
-                  color: `inherit`,
-                  paddingLeft: `30px`
-                }}>About Me</a>
+                  padding: `5px 0 5px 30px`
+                }}
+              >
+                <Link
+                  className="header_link"
+                  style={{
+                    boxShadow: `none`,
+                    textDecoration: `none`,
+                    color: `inherit`,
+                  }}
+                  to={`/`}
+                >
+                  About Me
+                </Link>
               </li>
+
               <li 
                 style={{
                   marginBottom: `0`,
-                  padding: `5px 0`}}>
-                <a href="#"
-                style={{
-                  boxShadow: `none`,
-                  textDecoration: `none`,
-                  color: `inherit`,
-                  paddingLeft: `30px`
-                }}>Contact</a>
+                  padding: `5px 0 5px 30px`}}
+              >
+                <Link
+                  className="header_link"
+                  style={{
+                    boxShadow: `none`,
+                    textDecoration: `none`,
+                    color: `inherit`,
+                  }}
+                  to={`/`}
+                >
+                  Contact
+                </Link>
               </li>
             </ul>
           </nav>

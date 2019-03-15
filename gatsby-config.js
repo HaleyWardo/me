@@ -74,6 +74,14 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Lato'],
+        },
+      },
+    },
     `gatsby-plugin-netlify`, // make sure to put last in the array
   ],
 }
