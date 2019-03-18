@@ -18,7 +18,8 @@ class Layout extends React.Component {
           color: '#333333'
         }}
       >
-        <Header title={title}/>
+        {/* TODO: Remove static title */}
+        <Header title="Haley Ward"/>
         <main>{children}</main>
         <footer>
           © {new Date().getFullYear()}, Built with &hearts; &

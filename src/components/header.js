@@ -9,18 +9,20 @@ export default class Header extends React.Component {
 				<h1
 					style={{
 						...scale(1.5),
-						marginBottom: rhythm(1),
-						marginTop: 0,
+						display: `flex`,
 						justifyContent: `center`,
-						display: `flex`
+						marginBottom: rhythm(1),
+						marginTop: 0
 					}}
 				>
 					<Link
 						style={{
 							boxShadow: `none`,
-							textDecoration: `none`,
 							color: `inherit`,
-							fontWeight: `500`
+							fontWeight: `500`,
+							fontSize: `60px`,
+							textAlign: `center`,
+							textDecoration: `none`
 						}}
 						to={`/`}
 					>
@@ -30,25 +32,26 @@ export default class Header extends React.Component {
 				<nav>
 					<ul
 						style={{
-							display: `flex`,
-							listStyle: `none`,
-							justifyContent: `center`,
+							borderBottom: `2px solid #333333`,
 							borderTop: `2px solid #333333`,
-							borderBottom: `2px solid #333333`
+							display: `flex`,
+							justifyContent: `center`,
+							listStyle: `none`,
+							marginLeft: '0'
 						}}>
 
 						<li
 							style={{
 								marginBottom: `0`,
-								padding: `5px 0 5px 30px`
+								padding: `5px 0`
 							}}
 						>
 							<Link
 								className="header_link"
 								style={{
 									boxShadow: `none`,
-									textDecoration: `none`,
 									color: `inherit`,
+									textDecoration: `none`,
 								}}
 								to={`/`}
 							>
@@ -66,8 +69,8 @@ export default class Header extends React.Component {
 								className="header_link"
 								style={{
 									boxShadow: `none`,
-									textDecoration: `none`,
 									color: `inherit`,
+									textDecoration: `none`,
 								}}
 								to={`/`}
 							>
@@ -85,8 +88,8 @@ export default class Header extends React.Component {
 								className="header_link"
 								style={{
 									boxShadow: `none`,
-									textDecoration: `none`,
 									color: `inherit`,
+									textDecoration: `none`,
 								}}
 								to='/contact'
 							>

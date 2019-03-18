@@ -1,12 +1,13 @@
 import React from 'react';
-import Header from '../components/header';
+import PageQuery from './index';
+import Layout from '../components/layout';
 
 class Contact extends React.Component {
-    render() {
-        return (
-            <Header />
-        );
-    }
+	render() {
+		return (
+			<Layout />
+		);
+	}
 }
 
 export default Contact;
