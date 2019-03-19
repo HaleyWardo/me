@@ -29,6 +29,7 @@ export default class Header extends React.Component {
 						{this.props.title}
 					</Link>
 				</h1>
+				{/*  
 				<nav>
 					<ul
 						style={{
@@ -98,6 +99,7 @@ export default class Header extends React.Component {
 						</li>
 					</ul>
 				</nav>
+				*/}
 			</div>
 		);
 	}

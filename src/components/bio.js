@@ -38,7 +38,7 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in Indianapolis building useful things.
+              Written by <strong>{author}</strong> who lives and works in Indianapolis - building useful things.
               {` `}
               {/* <a href={`https://twitter.com/${social.twitter}`}>
                 You should follow him on Twitter
