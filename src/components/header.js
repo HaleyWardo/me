@@ -72,7 +72,7 @@ export default class Header extends React.Component {
 									color: `inherit`,
 									textDecoration: `none`,
 								}}
-								to={`/`}
+								to='/about'
 							>
 								About Me
 							</Link>

@@ -1,6 +1,7 @@
 ---
 title: My Treehouse Tech Degree Experience
 date: "2018-02-09T22:12:03.284Z"
+description: I would like to share my experience with pursuing the Treehouse Tech Degree and belive that it will help others decide to take the next steps in their learning journey.
 ---
 
 ![Team Treehouse Logo](https://cdn-images-1.medium.com/max/1600/1*-ugM6tX7kKQFS-KwTaIrFQ.png)

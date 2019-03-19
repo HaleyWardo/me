@@ -43,7 +43,10 @@
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "blog",
+    "haley ward",
+    "haleyward.dev"
   ],
   "license": "MIT",
   "main": "n/a",
